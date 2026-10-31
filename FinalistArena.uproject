@@ -1,0 +1,39 @@
+{
+    "FileVersion": 3,
+    "EngineAssociation": "5.4",
+    "Category": "Game",
+    "Description": "Finalist Arena — 100-player survival battle royale (Unreal Engine 5.4)",
+    "Modules": [
+        {
+            "Name": "FinalistArena",
+            "Type": "Game",
+            "LoadingPhase": "Default"
+        }
+    ],
+    "Plugins": [
+        {"Name": "EnhancedInput", "Enabled": true},
+        {"Name": "GameplayAbilities", "Enabled": true},
+        {"Name": "GameplayEffectCalculator", "Enabled": true},
+        {"Name": "Niagara", "Enabled": true},
+        {"Name": "MetaSounds", "Enabled": true},
+        {"Name": "OnlineSubsystem", "Enabled": true},
+        {"Name": "OnlineSubsystemEOS", "Enabled": true},
+        {"Name": "OnlineSubsystemUtils", "Enabled": true},
+        {"Name": "Voice", "Enabled": true},
+        {"Name": "CommonUI", "Enabled": true},
+        {"Name": "WorldPartition", "Enabled": true},
+        {"Name": "StateTree", "Enabled": true},
+        {"Name": "ControlRig", "Enabled": true},
+        {"Name": "Sequencer", "Enabled": true},
+        {"Name": "PythonScriptPlugin", "Enabled": true}
+    ],
+    "TargetPlatforms": ["Win64", "Linux", "Server"],
+    "AdditionalDependencies": [
+        "OnlineSubsystemEOS",
+        "OnlineSubsystem",
+        "Voice"
+    ],
+    "CanContainContent": true,
+    "CanContainCode": true,
+    "IsVersionCompatible": false
+}

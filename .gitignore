@@ -1,0 +1,48 @@
+# Unreal Engine / Finalist Arena
+
+# Binaries / Build
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio / IDE
+.vs/
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.autoexp.natvis
+
+# macOS / Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+
+# Runtime
+Content/Saved/
+Content/Autosave/
+Content/Backup/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor user settings
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorUserSettings.ini
+Config/EditorPerProjectUserSettings.ini
+Config/EditorUserSettings.ini
+
+# Local user overrides
+Config/*.local.ini
+
+# Python
+__pycache__/
+*.pyc
