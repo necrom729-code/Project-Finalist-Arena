@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finalist Arena — Standalone Build</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; color: #eee; font-family: 'Segoe UI', sans-serif; overflow: hidden; }
+  #game { position: relative; width: 100vw; height: 100vh; }
+  canvas { display: block; width: 100vw; height: 100vh; background: linear-gradient(#2d4a2d, #1a2e1a); }
+  .hud { position: absolute; top: 10px; left: 10px; pointer-events: none; }
+  .stat { background: rgba(0,0,0,0.6); border: 1px solid #444; padding: 8px 12px; margin-bottom: 6px; border-radius: 4px; font-size: 14px; }
+  .stat-bar { width: 120px; height: 10px; background: #222; border: 1px solid #555; margin-top: 4px; overflow: hidden; }
+  .stat-fill { height: 100%; background: #0f0; width: 100%; transition: width 0.1s; }
+  .stat-fill.danger { background: #f44; }
+  .stat-fill.warn { background: #ff4; }
+  .stat-label { display:flex; justify-content: space-between; font-size: 12px; color: #aaa; }
+  .crosshair { position: absolute; top: 50%; left: 50%; width: 18px; height: 18px; border: 2px solid #fff; border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; }
+  .crosshair::after { content:''; position:absolute; left:50%; top:50%; width:4px; height:4px; background:#fff; border-radius:50%; transform:translate(-50%,-50%); }
+  .msg { position: absolute; bottom: 80px; left: 10px; background: rgba(0,0,0,0.7); padding: 8px 12px; border-radius: 4px; font-size: 13px; color: #0f0; pointer-events: none; max-width: 400px; }
+  .panel { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.85); border: 2px solid #666; padding: 24px 32px; border-radius: 8px; text-align: center; display: none; }
+  .panel h1 { color: #ff4444; font-size: 28px; margin-bottom: 12px; }
+  .panel p { color: #ccc; margin-bottom: 16px; font-size: 16px; }
+  button { background: #ff4444; color: #111; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; margin: 4px; }
+  button:hover { background: #ff6666; }
+  button.secondary { background: #444; color: #eee; }
+  .chat { position: absolute; bottom: 10px; right: 10px; width: 280px; height: 200px; background: rgba(0,0,0,0.6); border: 1px solid #444; border-radius: 6px; padding: 8px; pointer-events: auto; font-size: 12px; color: #ccc; overflow-y: auto; }
+  .chat input { width: 100%; background: #111; border: 1px solid #444; color: #eee; padding: 4px; border-radius: 3px; }
+  .hint { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); font-size: 12px; color: #888; pointer-events: none; }
+  .zone { position: absolute; top: 10px; left: 50%; transform: translateX(-50%); background: rgba(150,0,0,0.5); border: 1px solid #f44; padding: 6px 14px; border-radius: 20px; font-size: 14px; font-weight: bold; pointer-events: none; display: none; }
+  .event { position: absolute; top: 60px; left: 50%; transform: translateX(-50%); background: rgba(180,100,0,0.7); border: 1px solid #f40; padding: 8px 16px; border-radius: 4px; font-size: 15px; pointer-events: none; display:none; color:#ffd; }
+  .inventory { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display:flex; gap:6px; background: rgba(0,0,0,0.6); padding:6px; border-radius:6px; pointer-events:auto; }
+  .slot { width:44px; height:44px; border:1px solid #555; background:#1a1a1a; color:#aaa; font-size:10px; display:flex; flex-direction:column; align-items:center; justify-content:center; border-radius:3px; }
+  .slot.has { color:#0f0; border-color:#0a0; }
+  .craft { position: absolute; top:10px; right:10px; width:220px; background:rgba(0,0,0,0.7); border:1px solid #444; border-radius:6px; padding:10px; pointer-events:auto; z-index:10; }
+  .craft h3 { color:#0f0; margin-bottom:6px; font-size:13px; }
+  .craft-item { display:flex; justify-content:space-between; align-items:center; padding:4px 6px; border-bottom:1px solid #333; font-size:12px; cursor:pointer; }
+  .craft-item:hover { background:#222; }
+  .craft-item b { color:#0f0; }
+  .status { position: absolute; top: 10px; right: 10px; text-align:right; font-size:13px; color:#aaa; pointer-events:none; }
+</style>
+</head>
+<body>
+<div id="game">
+  <canvas id="c"></canvas>
+  <div class="crosshair"></div>
+  <div class="hud">
+    <div class="stat"><div class="stat-label"><span>HEALTH</span><span id="hpVal">100</span></div><div class="stat-bar"><div id="hpBar" class="stat-fill" style="width:100%"></div></div></div>
+    <div class="stat"><div class="stat-label"><span>STAMINA</span><span id="stVal">100</span></div><div class="stat-bar"><div id="stBar" class="stat-fill" style="width:100%"></div></div></div>
+    <div class="stat"><div class="stat-label"><span>HYGIENE</span><span id="hyVal">100</span></div><div class="stat-bar"><div id="hyBar" class="stat-fill" style="width:100%"></div></div></div>
+    <div class="stat"><div class="stat-label"><span>SLEEP</span><span id="slVal">100</span></div><div class="stat-bar"><div id="slBar" class="stat-fill" style="width:100%"></div></div></div>
+    <div class="stat"><div class="stat-label"><span>PARANOIA</span><span id="paVal">0</span></div><div class="stat-bar"><div id="paBar" class="stat-fill" style="width:100%;background:#f44"></div></div></div>
+    <div class="stat"><div class="stat-label"><span>KILLS</span><span id="killVal">0</span></div></div>
+    <div class="stat"><div class="stat-label"><span>ARENA PTS</span><span id="apVal">0</span></div></div>
+  </div>
+  <div id="zone" class="zone">CATACLYSM ZONE DAMAGE</div>
+  <div id="event" class="event"></div>
+  <div class="msg" id="msg"></div>
+  <div id="death" class="panel">
+    <h1>YOU ARE DEAD</h1>
+    <p id="deathMsg">The arena claims another.</p>
+    <button class="secondary" onclick="client.respawn()">Respawn / Spectate</button>
+  </div>
+  <div id="victory" class="panel">
+    <h1 style="color:#0f0">YOU ARE THE FINALIST</h1>
+    <p>The Gamemaker: "You are the Finalist. You have survived."</p>
+    <p id="victoryPts">Arena Points: 0</p>
+    <button onclick="location.reload()">Play Again</button>
+  </div>
+  <div class="inventory" id="inventory"></div>
+  <div class="craft" id="craftPanel">
+    <h3>Crafting</h3>
+    <div id="craftList"></div>
+  </div>
+  <div class="chat" id="chat">
+    <div id="chatLog"></div>
+    <input id="chatInput" placeholder="Chat / hype...">
+  </div>
+  <div class="hint">WASD/Move • Mouse aim • Click = Attack • 1-4 = Weapon • C = Craft • B = Team • T = Chat</div>
+  <div class="status">Server: <span id="connStatus">connecting...</span> | <span id="latency">0ms</span></div>
+</div>
+<script src="client.js"></script>
+</body>
+</html>

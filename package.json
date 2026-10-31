@@ -1,0 +1,15 @@
+{
+  "name": "finalist-arena",
+  "version": "0.1.0",
+  "description": "Finalist Arena — standalone 100-player survival battle royale prototype (Node.js + browser)",
+  "type": "module",
+  "main": "game/server/index.js",
+  "scripts": {
+    "start": "node game/server/index.js",
+    "start:bots": "BOT_COUNT=100 node game/server/index.js",
+    "test": "node game/tests/run.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
