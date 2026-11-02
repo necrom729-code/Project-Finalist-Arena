@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "Finalist Arena - 100-player survival battle royale with crafting, dynamic zones, and no microtransactions.",
+	"Modules": [
+		{
+			"Name": "FinalistArena",
+			"Type": "Game",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,195 @@
+# Finalist Arena - Crafting Ideas (Infinite / Procedural)
+
+## Base Materials
+Wood, Stone, Fiber, Bone, Hide, Metal Scrap, Cloth, Water, Fire, Poison Gland, Venom, Mutated Tissue, Toxic Waste, Radiation Crystal, Ice Shard, Lava Rock, Sand, Blood, Feathers, Scale, Horn, Tooth, Claw, Silk, Resin, Wax, Ash, Salt, Sulfur, Niter, Charcoal, Gunpowder, Fuse, Rope, Glue, Thread, Needle, Lever, Spring, Gear, Wire, Battery, Circuit, Lens, Mirror, Beaker, Filter, Cloth Bandage, Suture, Antiseptic, Syringe, Suture Kit, Splint, Tourniquet, Oxygen Filter, Gas Mask Cartridge, Purification Tablet, Iodine, Alcohol, Honey, Aloe, Herb, Root, Mushroom, Berry, Nut, Seed, Fish, Meat, Egg, Milk, Fat, Grease, Oil, Wax, Resin, Sap, Tar, Pitch, Clay, Brick, Mortar, Cement, Concrete, Steel Plate, Iron Ingot, Copper Wire, Zinc, Lead, Tin, Nickel, Cobalt, Titanium, Tungsten, Platinum, Gold, Silver, Gem, Diamond, Ruby, Emerald, Sapphire, Opal, Amber, Crystal, Quartz, Obsidian, Flint, Chalk, Gypsum, Limestone, Marble, Granite, Basalt, Slate, Shale, Sandstone, Peat, Coal, Coke, Charcoal, Peat, Humus, Compost, Fertilizer, Lime, Sulfuric Acid, Hydrochloric Acid, Nitric Acid, Ammonia, Bleach, Peroxide, Acetone, Ethanol, Methanol, Kerosene, Diesel, Gasoline, Propane, Butane, Acetylene, Hydrogen, Oxygen, Nitrogen, Carbon Dioxide, Methane, Propane, Butane, Ethane, Pentane, Hexane, Heptane, Octane, Nonane, Decane, Undecane, Dodecane, Tridecane, Tetradecane, Pentadecane, Hexadecane, Heptadecane, Octadecane, Nonadecane, Eicosane, and more.
+
+## Mutated / Unique Materials
+Mutated Animal: Mutated Hide, Mutated Bone, Mutated Claw, Mutated Tooth, Mutated Scale, Mutated Venom Gland, Mutated Blood, Mutated Organ, Mutated Eye, Mutated Heart, Mutated Brain, Mutated Spine, Mutated Pelt, Mutated Feather, Mutated Scale, Mutated Horn, Mutated Tusk, Mutated Antler, Mutated Fin, Mutated Tail, Mutated Wing, Mutated Web, Mutated Slime, Mutated Mucus, Mutated Poison, Mutated Acid, Mutated Fire Gland, Mutated Ice Gland, Mutated Electric Organ, Mutated Radiation Gland, Mutated Toxic Sac, Mutated Cancerous Tissue, Mutated Tumor, Mutated Cyst, Mutated Abscess, Mutated Lesion, Mutated Ulcer, Mutated Gangrene, Mutated Necrosis, Mutated Sepsis, Mutated Blight, Mutated Rot, Mutated Mold, Mutated Fungus, Mutated Spores, Mutated Pollen, Mutated Nectar, Mutated Sap, Mutated Resin, Mutated Gum, Mutated Latex, Mutated Rubber, Mutated Plastic, Mutated Metal, Mutated Glass, Mutated Crystal, Mutated Gem, Mutated Ore, Mutated Stone, Mutated Wood, Mutated Fiber, Mutated Cloth, Mutated Leather, Mutated Fur, Mutated Hair, Mutated Nail, Mutated Horn, Mutated Antler, Mutated Tusk, Mutated Ivory, Mutated Shell, Mutated Carapace, Mutated Exoskeleton, Mutated Endoskeleton, Mutated Skeleton, Mutated Skull, Mutated Jaw, Mutated Rib, Mutated Vertebra, Mutated Pelvis, Mutated Femur, Mutated Tibia, Mutated Fibula, Mutated Humerus, Mutated Radius, Mutated Ulna, Mutated Carpals, Mutated Metacarpals, Mutated Phalanges, Mutated Tarsals, Mutated Metatarsals, Mutated Patella, Mutated Scapula, Mutated Clavicle, Mutated Sternum, Mutated Cranium, Mutated Mandible, Mutated Maxilla, Mutated Zygoma, Mutated Nasal, Mutated Lacrimal, Mutated Palatine, Mutated Vomer, Mutated Ethmoid, Mutated Sphenoid, Mutated Occipital, Mutated Parietal, Mutated Frontal, Mutated Temporal, Mutated Hyoid, Mutated Auditory Ossicles, Mutated Malleus, Mutated Incus, Mutated Stapes, Mutated Coccyx, Mutated Sacrum, Mutated Atlas, Mutated Axis, Mutated Cervical Vertebrae, Mutated Thoracic Vertebrae, Mutated Lumbar Vertebrae, Mutated costal cartilage, Mutated intervertebral discs, Mutated ligaments, Mutated tendons, Mutated fascia, Mutated aponeurosis, Mutated synovial membrane, Mutated bursa, Mutated meniscus, Mutated labrum, Mutated rotator cuff, Mutated meniscus, Mutated cruciate ligament, Mutated collateral ligament, Mutated patellar tendon, Mutated Achilles tendon, Mutated plantar fascia, Mutated deltoid ligament, Mutated spring ligament, Mutated plantar calcaneonavicular ligament, Mutated long plantar ligament, Mutated short plantar ligament, Mutated calcaneocuboid ligament, Mutated bifurcate ligament, Mutated talocalcaneal ligament, Mutated anterior talofibular ligament, Mutated posterior talofibular ligament, Mutated calcaneofibular ligament, Mutated deltoid ligament, Mutated spring ligament, Mutated plantar calcaneonavicular ligament, Mutated long plantar ligament, Mutated short plantar ligament, Mutated calcaneocuboid ligament, Mutated bifurcate ligament, Mutated talocalcaneal ligament.
+
+## Crafting Examples
+- **Stone Knife**: Stone + Fiber + Wood
+- **Bow**: Wood + Fiber + Hide
+- **Arrow**: Wood + Feather + Stone Tip
+- **Bandage**: Cloth + Herb
+- **Medkit**: Cloth + Antiseptic + Suture + Gauze
+- **Poisoned Arrow**: Arrow + Poison Gland
+- **Fire Arrow**: Arrow + Cloth + Oil + Fuse
+- **Gas Mask**: Cloth + Filter + Rubber + Glass Lens
+- **Torch**: Wood + Cloth + Oil + Fire
+- **Campfire**: Wood + Stone + Fire
+- **Water Filter**: Cloth + Sand + Charcoal + Bottle
+- **Antidote**: Herb + Water + Beaker + Filter
+- **Stimulant**: Herb + Caffeine + Syringe
+- **Sleeping Dart**: Dart + Sleeping Herb + Poison
+- **Trap**: Wood + Rope + Stone + Trigger
+- **Spike Pit**: Wood + Stone + Rope + Cover
+- **Tripwire Alarm**: Wire + Can + Stone + Fuse
+- **Molotov**: Bottle + Oil + Cloth + Fuse
+- **IED**: Metal Scrap + Gunpowder + Fuse + Battery + Circuit
+- **Climbing Gear**: Rope + Hook + Leather + Metal
+- **Swim Fins**: Rubber + Cloth + Rope
+- **Oxygen Tank**: Metal Tank + Valve + Hose + Mask
+- **Radiation Badge**: Film + Badge + Plastic
+- **Geiger Counter**: Circuit + Screen + Battery + Tube
+- **Night Vision Goggles**: Lens + Circuit + Battery + Housing
+- **Parabolic Microphone**: Dish + Mic + Circuit + Headphones
+- **Signal Jammer**: Circuit + Antenna + Battery + Housing
+- **Drone**: Frame + Motor + Propeller + Circuit + Battery + Camera
+- **Turret**: Metal + Motor + Gun + Circuit + Sensor
+- **Landmine**: Metal + Explosive + Pressure Plate + Fuse
+- **Claymore**: Metal + Explosive + Shrapnel + Fuse + Tripwire
+- **Smoke Bomb**: Paper + Gunpowder + Sulfur + Sugar + Fuse
+- **Flashbang**: Paper + Magnesium + Oxidizer + Fuse
+- **Tear Gas**: Canister + CS Gas + Pressurizer + Valve
+- **Stun Grenade**: Capacitor + Coil + Housing + Fuse
+- **EMP Device**: Capacitor + Coil + Circuit + Antenna + Battery
+- **Grappling Hook**: Rope + Hook + Motor + Winch + Housing
+- **Zip Line**: Cable + Pulley + Harness + Hook
+- **Rappel Gear**: Rope + Descender + Harness + Carabiner
+- **Climbing Axe**: Metal + Wood + Leather
+- **Ice Axe**: Metal + Wood + Leather
+- **Crampons**: Metal + Leather + Strap
+- **Snowshoe**: Wood + Leather + Rope
+- **Sled**: Wood + Leather + Rope
+- **Kayak**: Wood + Hide + Resin
+- **Canoe**: Wood + Bark + Resin
+- **Raft**: Wood + Rope + Hide
+- **Fishing Rod**: Wood + Fiber + Hook + Line
+- **Spear**: Wood + Stone + Fiber
+- **Atlatl**: Wood + Bone + Fiber
+- **Blowgun**: Wood + Dart + Poison
+- **Sling**: Leather + Fiber + Stone
+- **Bolster**: Wood + Stone + Fiber
+- **Shield**: Wood + Hide + Metal Rim
+- **Buckler**: Wood + Metal Boss
+- **Kite Shield**: Wood + Hide + Metal
+- **Pavise**: Wood + Hide + Metal
+- **Targe**: Wood + Hide + Metal
+- **Target Shield**: Wood + Hide + Metal
+- **Heater Shield**: Wood + Hide + Metal
+- **Buckler**: Wood + Metal
+- **Round Shield**: Wood + Hide
+- **Oval Shield**: Wood + Hide
+- **Heater Shield**: Wood + Hide
+- **Kite Shield**: Wood + Hide
+- **Pavise**: Wood + Hide
+- **Targe**: Wood + Hide
+- **Target**: Wood + Hide
+- **Buckler**: Wood + Metal
+- **Shield**: Wood + Hide + Metal
+- **Armor**: Hide + Leather + Metal + Fiber
+- **Helmet**: Hide + Leather + Metal
+- **Chestplate**: Hide + Leather + Metal
+- **Gauntlets**: Hide + Leather + Metal
+- **Greaves**: Hide + Leather + Metal
+- **Boots**: Hide + Leather + Rope
+- **Gloves**: Hide + Leather + Fiber
+- **Cape**: Cloth + Hide
+- **Cloak**: Cloth + Hide
+- **Hood**: Cloth + Hide
+- **Mask**: Cloth + Leather + Metal
+- **Respirator**: Cloth + Filter + Rubber
+- **Gas Mask**: Cloth + Filter + Rubber + Glass
+- **Hazmat Suit**: Rubber + Plastic + Tape + Seal
+- **Fire Suit**: Nomex + Kevlar + Leather
+- **Cold Suit**: Fur + Leather + Wool + Insulation
+- **Ghillie Suit**: Cloth + Netting + Fiber + Grass
+- **Stealth Suit**: Cloth + Rubber + Foam
+- **Combat Boots**: Leather + Rubber + Steel Toe
+- **Running Shoes**: Cloth + Rubber + Foam
+- **Hiking Boots**: Leather + Rubber + Vibram
+- **Climbing Shoes**: Rubber + Leather + Foam
+- **Water Shoes**: Rubber + Mesh + Foam
+- **Sandals**: Leather + Rope
+- **Flip Flops**: Rubber + Strap
+- **Moccasins**: Leather + Fiber
+- **Brogues**: Leather + Lace
+- **Oxford**: Leather + Lace
+- **Derby**: Leather + Lace
+- **Loafer**: Leather
+- **Monk Strap**: Leather + Buckle
+- **Chelsea Boot**: Leather + Elastic
+- **Chukka Boot**: Leather + Lace
+- **Desert Boot**: Leather + Crepe Sole
+- **Work Boot**: Leather + Steel Toe + Rubber
+- **Logger Boot**: Leather + Steel Toe + Vibram
+- **Muck Boot**: Rubber + Neoprene
+- **Rain Boot**: Rubber
+- **Wellies**: Rubber
+- **Gumboots**: Rubber
+- **Waders**: Rubber + Nylon + Suspenders
+- **Hip Waders**: Rubber + Nylon + Suspenders
+- **Chest Waders**: Rubber + Nylon + Suspenders
+- **Stockingfoot Waders**: Rubber + Nylon + Neoprene Socks
+- **Bootfoot Waders**: Rubber + Neoprene
+- **Hip Boots**: Rubber + Neoprene
+- **Chest Boots**: Rubber + Neoprene
+- **Fishing Vest**: Nylon + Pocket + Foam
+- **Tackle Box**: Plastic + Latch + Hinge
+- **Cooler**: Plastic + Foam + Latch
+- **Ice Chest**: Plastic + Foam + Latch
+- **Thermos**: Metal + Vacuum + Cap
+- **Canteen**: Plastic + Cap + Strap
+- **Water Bottle**: Plastic + Cap
+- **Hydration Bladder**: Plastic + Tube + Bite Valve
+- **CamelBak**: Plastic + Tube + Bite Valve + Pack
+- **Water Purifier**: Filter + Carbon + Ceramic + UV
+- **Sawyer Filter**: Hollow Fiber + Housing
+- **LifeStraw**: Hollow Fiber + Housing + Cap
+- **Steripen**: UV + Battery + Housing
+- **Purification Tablet**: Iodine + Chlorine + Tablet
+- **Bleach**: Sodium Hypochlorite + Water
+- **Pool Shock**: Calcium Hypochlorite
+- **Iodine Crystals**: Iodine
+- **Chlorine Tablets**: Chlorine + Tablet
+- **Potable Aqua**: Iodine + Tablet
+- **Aquatabs**: Chlorine + Tablet
+- **Milton Tablets**: Sodium Hypochlorite + Tablet
+- **Katadyn**: Ceramic + Carbon + Housing
+- **MSR Filter**: Ceramic + Carbon + Housing
+- **Platypus Filter**: Hollow Fiber + Housing
+- **Sawyer Squeeze**: Hollow Fiber + Housing + Pouch
+- **Sawyer Mini**: Hollow Fiber + Housing + Pouch
+- **Sawyer Micro**: Hollow Fiber + Housing + Pouch
+- **Sawyer Select**: Hollow Fiber + Housing + Pouch
+- **Sawyer PointOne**: Hollow Fiber + Housing + Pouch
+- **Sawyer PointZeroTwo**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP128**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP129**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP130**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP131**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP132**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP133**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP134**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP135**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP136**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP137**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP138**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP139**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP140**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP141**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP142**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP143**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP144**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP145**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP146**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP147**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP148**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP149**: Hollow Fiber + Housing + Pouch
+- **Sawyer SP150**: Hollow Fiber + Housing + Pouch
+- ...and infinitely more procedural combinations.
+
+## Mutated Crafting (Unique Items)
+- **Mutated Blood Armor**: Mutated Hide + Mutated Blood + Resin
+- **Venom Blade**: Mutated Tooth + Mutated Venom Gland + Wood
+- **Toxic Grenade**: Mutated Toxic Sac + Metal + Fuse
+- **Radiation Torch**: Mutated Radiation Gland + Wood + Cloth
+- **Electric Trap**: Mutated Electric Organ + Wire + Battery
+- **Ice Spear**: Mutated Ice Gland + Wood + Bone
+- **Fire Moth Cloak**: Mutated Wing + Mutated Poison + Cloth
+- **Cancerous Shield**: Mutated Tumor + Mutated Hide + Metal
+- **Necrotic Grenade**: Mutated Necrosis + Metal + Fuse
+- **Sepsis Cloud**: Mutated Sepsis + Canister + Pressurizer
+
+## Infinite Procedural Logic
+Every material combines with every other material at multiple tiers (Scavenger → Master). New recipes unlock via Manual Books found in world. The system supports infinite player-driven discovery.
